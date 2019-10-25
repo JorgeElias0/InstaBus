@@ -10,6 +10,7 @@ body{
     display: flex;
     align-items: center;
     width: 50%;
+    color: white;
 }
 
 .accesos
@@ -21,10 +22,13 @@ body{
     color: rgb(33, 112, 204);
     margin: 7px 0;
     background-color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 30px;
 }
 
 .logo{
-    height: 40%;
+    height: 30%;
 }
 
 .accesos:hover
@@ -32,4 +36,17 @@ body{
     background-color: rgb(33, 112, 204);
     color: white;
     transition: all 0.5s;
+}
+
+.dat
+{
+    width: 50%;
+    margin: 10px 0;
+}
+
+.marco
+{
+    width: 50%;
+    height: 25%;
+    border: 10px solid white;
 }
