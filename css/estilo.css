@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(33, 112, 204);
+    display: flex;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.seccion{
+    flex-flow: column;
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.accesos
+{
+    width: 80%;
+    height: 50px;
+    text-transform: uppercase;
+    border: 1px solid white;
+    color: rgb(33, 112, 204);
+    margin: 7px 0;
+    background-color: white;
+}
+
+.logo{
+    height: 40%;
+}
+
+.accesos:hover
+{
+    background-color: rgb(33, 112, 204);
+    color: white;
+    transition: all 0.5s;
+}
