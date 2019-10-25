@@ -3,6 +3,7 @@ body{
     display: flex;
     justify-content: center;
     font-family: 'Courier New', Courier, monospace;
+    margin: auto;
 }
 
 .seccion{
@@ -46,7 +47,7 @@ body{
 
 .marco
 {
-    width: 50%;
-    height: 25%;
+    width: 65%;
+    height: 30%;
     border: 10px solid white;
 }
