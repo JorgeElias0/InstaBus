@@ -31,7 +31,8 @@ h2, h3, label{
     background-color: white;
     text-decoration: none;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .logo{
@@ -75,6 +76,7 @@ h2, h3, label{
 
     .logo{
         height: 130px;
+        margin-top: 10px;
     }
 }
 
