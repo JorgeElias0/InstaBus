@@ -72,6 +72,10 @@ h2, h3, label{
     {
         width: 300px;
     }
+
+    .logo{
+        height: 130px;
+    }
 }
 
 @media(min-width: 800px)
