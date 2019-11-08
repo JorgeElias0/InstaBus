@@ -45,7 +45,6 @@ h2, h3, label{
     transition: all 0.5s;
 }
 
-
 .dat
 {
     width: 50%;
@@ -60,9 +59,14 @@ h2, h3, label{
     margin-bottom: 10px;
 }
 
-@media(min-width: 525px) and (max-width: 799px)
+@media(max-width: 799px)
 {
     .marco{
         height: 20%;
+    }
+
+    .accesos
+    {
+        width: 300px;
     }
 }
