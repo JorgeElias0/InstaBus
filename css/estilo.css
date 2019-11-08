@@ -47,7 +47,6 @@ h2, h3, label{
 
 .dat
 {
-    width: 50%;
     margin: 10px 0;
 }
 
@@ -65,8 +64,20 @@ h2, h3, label{
         height: 20%;
     }
 
+    .dat{
+        width: 200px;
+    }
+
     .accesos
     {
         width: 300px;
+    }
+}
+
+@media(min-width: 800px)
+{
+    .accesos
+    {
+        width: 71%;
     }
 }
